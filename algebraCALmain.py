@@ -1,5 +1,5 @@
 from pyparsing import Word, alphas, Literal, nums, Or
-# function
+# function ok i finished it but i need to make it more efficient
 def operator_overloading_solver(equation_str):
     identifier = Word(alphas)
     variable = Word(alphas, max=1)
